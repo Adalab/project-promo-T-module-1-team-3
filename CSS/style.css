@@ -1,0 +1,71 @@
+
+:root {
+  font-size: 62.5%;
+}
+
+
+/* PARTE SILVIA */
+.hero {
+    background-image: url(../img/imagen-hero.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 316px;
+    display: flex;
+    align-items: center;
+}
+
+.Rectangle-2 {
+  width: 290px;
+  height: 80px;
+  margin: 316px 15px 0 15px;
+  padding: 14px 15px 16px;
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+}
+
+.subtitle {
+  width: 260px;
+  height: 50px;
+  font-size: 1.6rem;
+  /* SP:el tamañon en Zeplin pone 18px, ver fuente original cuando la tengamos */
+}
+
+
+/* PARTE MARÍA */
+.footer {
+  margin-top: 3775px;
+  height: 250px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.div-footer1 {
+  width: 172px;
+  height: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+   /* MP:el tamañon en Zeplin pone 14px, ver fuente original cuando la tengamos */
+  color: #b8b8b9;
+  /* color: var(--cool-grey); */
+}
+.list-footer {
+  list-style: none;
+  text-align: center;
+}
+
+.list-footer a {
+    text-decoration: none;
+    color: #54585a;
+    /* color: var(--gunmetal); */
+
+}
+
+.logo-adalab {
+  width: 115.9px;
+  height: 45px;
+}
+
