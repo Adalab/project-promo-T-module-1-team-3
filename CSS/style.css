@@ -1,8 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
 
 :root {
   font-size: 62.5%;
 }
 
+/* PARTE RAQUEL */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding-left: 45px;
+  padding-right: 45px;
+  align-items: center;
+  background-color: #099d8d;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  opacity: 90%;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  column-gap: 15px;
+}
 
 /* PARTE SILVIA */
 .hero {
