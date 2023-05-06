@@ -114,16 +114,17 @@ header {
 i {
   margin: 0 5px;
 }
+
+.icons a {
+  color: var(--blue-green);
+ 
+}
 .icons {
   display: flex;
   justify-content: center;
-  margin: 20px;
-  color: var(--blue-green);
-  
+  margin: 15px;
+
 }
-
-
-
 
 /* PARTE MARÍA */
 .footer {
