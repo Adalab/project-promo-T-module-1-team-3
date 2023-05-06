@@ -67,6 +67,45 @@ header {
   /* SP:el tamañon en Zeplin pone 18px, ver fuente original cuando la tengamos */
 }
 
+/* PARTE MIRIAM */
+.about{
+  background-color: var(--white);
+  width: 320px;
+  height: 504px;
+  padding: 30px 15px;
+}
+
+.about h3{
+width: 90px;
+height: 35px;
+margin: 30px 100px 0 100px;
+font-size: 2.5rem;
+font-weight: 500;
+color: var(--aqua);
+align-items: center;
+}
+
+.about-paragraph{
+  width: 290px;
+  height: 384px;
+}
+
+.about p{
+  color: var(--gunmetal);
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2.2rem;
+  padding: 8px;
+  font-weight: 100;
+}
+
+.about-cube{
+  background-color: #099d8d;
+  width: 30px;
+  height: 30px;
+  margin: 0 130px 0 130px;
+  transform: rotate(45deg);
+}
 
 /* PARTE MARÍA */
 .footer {
