@@ -70,23 +70,23 @@ header {
 /* PARTE MIRIAM */
 .about{
   background-color: var(--white);
-  width: 320px;
-  height: 504px;
-  padding: 30px 15px;
+  width: 100%;
+  height: 50%;
+  padding: 30px;
 }
 
 .about h3{
-width: 90px;
-height: 35px;
-margin: 30px 100px 0 100px;
+width: 100%;
+height: 40%;
+margin: 40px 0;
 font-size: 2.5rem;
 font-weight: 500;
 color: var(--aqua);
-align-items: center;
-}
+display: flex;
+justify-content: center;}
 
 .about-paragraph{
-  width: 290px;
+  width: 100%;
   height: 350px;
 }
 
@@ -103,8 +103,9 @@ align-items: center;
   background-color: #099d8d;
   width: 30px;
   height: 30px;
-  margin: 0 130px 0 130px;
   transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
 }
 
 /* PARTE MARÍA */
