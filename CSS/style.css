@@ -21,14 +21,19 @@
 /* PARTE RAQUEL */
 header {
   font-size: 1.6rem;
+  opacity: 90%;
+  color: var(--white);
 }
 
 @media screen and (min-width: 480px) {
+  header {
+    display: block;
+    position: fixed;
+  }
+
   .team-name {
     width: 100vw;
-    background-color: var(--blue-green);
-    opacity: 90%;
-    color: var(--white);
+    background-color: var(--blue-green)  ;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -38,8 +43,6 @@ header {
   .navbar {
     width: 100vw;
     background-color: var(--aqua);
-    opacity: 90%;
-    color: var(--white);
     height: 60px;
     display: flex;
     justify-content: space-around;
@@ -60,7 +63,6 @@ header {
     color: var(--white);
     position: fixed;
     width: 100vw;
-    opacity: 90%;
   }
 
   .navbar {
@@ -83,7 +85,6 @@ header {
     color: white;
     position: fixed;
     width: 100vw;
-    opacity: 90%;
   }
 
   .navbar {
