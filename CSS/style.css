@@ -70,9 +70,8 @@ header {
 
 /* PARTE MARÍA */
 .footer {
-  margin-top: 3775px;
-  height: 250px;
-  border: 1px solid black;
+  height: 20wh;
+  border: 1px solid var(--cool-grey);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,8 +84,8 @@ header {
   text-align: center;
   font-size: 1.2rem;
    /* MP:el tamañon en Zeplin pone 14px, ver fuente original cuando la tengamos */
-  color: #b8b8b9;
-  /* color: var(--cool-grey); */
+  color:var(--cool-grey);
+  
 }
 .list-footer {
   list-style: none;
@@ -94,14 +93,21 @@ header {
 }
 
 .list-footer a {
-    text-decoration: none;
-    color: #54585a;
-    /* color: var(--gunmetal); */
-
+  text-decoration: none;
+  color: #54585a;
 }
-
 .logo-adalab {
   width: 115.9px;
   height: 45px;
+}
+@media screen and (min-width:768){ 
+  .footer{
+  height: 20wh;
+  border: 1px solid var(--cool-grey);
+  display: inline;
+  }
+  .list-footer{
+    text-align: right;
+  }
 }
 
