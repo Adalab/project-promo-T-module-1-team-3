@@ -288,7 +288,7 @@ justify-content: center;}
 
 .description {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--gunmetal);
   line-height: 1.5;
   margin: 0 30px;
@@ -310,6 +310,55 @@ i {
 
 }
 
+@media screen and (min-width: 768px) {
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+  .boximage {
+    width: 30%;
+  }
+  .boxcontent {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .description {
+    text-align: start;
+    margin
+    : 0;
+    padding: 0;
+  }
+  .names {
+    margin-top: 0;
+  }
+  .icons {
+    justify-content: flex-start;
+    margin-left: 0;
+    
+  }
+  .i {
+    width: 80%;
+    height: 80%;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  } 
+  .reverse_icons {
+    justify-content: flex-end;
+  }
+  .reverse_name{
+    text-align: end;
+  }
+  .reverse_description {
+    text-align: end;
+  }
+}
+@media screen and (min-width: 1200px) {
+
+}
 /* PARTE MARÍA */
 .footer {
   height: 20wh;
