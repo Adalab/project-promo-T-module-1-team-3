@@ -48,20 +48,15 @@ header {
     /* background-color: red; */
     width: 100vw;
     height: 316px; 
-    /* Restar los 45 del header cuando estén a los 361px */
     margin: 0 0 46px;
     display: flex;
     align-items: center;
 }
-/* .hero-img {
-    width: 100vw;
-  } */
 
 .Rectangle-2 {
   width: 290px;
   height: 80px;
-  margin: 342px 15px 0;
-  /* Restar los 45 del header cuando estén a los 342px*/
+  margin: 297px 15px 0;
   padding: 14px 15px 16px;
   background-color: var(--white);
   border: 1px solid grey;
@@ -94,29 +89,23 @@ header {
     background-size: cover;
     height: 361px; 
   }
-  /* .hero-img {
-    background-size: cover;
-    width: 100vw;
-  }  */
   .subtitle {
     width: 381px;
     line-height: 1.39;
   }
 }
 
-@media screen and (min-width 1200px) {
+@media screen and (min-width: 1200px) {
   .Rectangle-2 {
     width: 800px;
     height: 90px;
     margin: 400px 488px 0 138px;
-/* esto no funciona, ver con compis */
     padding: 15px 30px;
     opacity: 0.8;
     background-color: var(--white);
   }
   .hero {
     background-size:cover;
-/* esto no funciona, ver con compis */
     width: 1200px;
     height: 490px; 
   }
