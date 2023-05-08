@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   font-family: "Rubik", sans-serif;
+
 }
 
 :root {
@@ -218,39 +219,6 @@ justify-content: center;}
     height: 25%;
   }
 }
-
-  
-
-/* PARTE MARÍA */
-.footer {
-  margin-top: 3775px;
-  height: 250px;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.div-footer1 {
-  width: 172px;
-  height: 20px;
-  text-align: center;
-  font-size: 1.2rem;
-  /* MP:el tamañon en Zeplin pone 14px, ver fuente original cuando la tengamos */
-  color: #b8b8b9;
-  /* color: var(--cool-grey); */
-}
-.list-footer {
-  list-style: none;
-  text-align: center;
-}
-
-.list-footer a {
-  text-decoration: none;
-  color: #54585a;
-  /* color: var(--gunmetal); */
-}
 /* Parte Lola*/
 .strengths{
   width: 100%;
@@ -282,6 +250,95 @@ justify-content: center;}
   text-align: center;
   
 
+}
+/*Natalia*/
+.adalabers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-section2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: var(--blue-green);
+  margin: 30px 0;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images {
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  border: solid 4px var(--cool-grey);
+  border-radius: 5px;
+}
+
+.names {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 15px 0 5px 0; 
+
+}
+
+.description {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--gunmetal);
+  line-height: 1.5;
+  margin: 0 30px;
+  padding: 0 15px;
+}
+
+i {
+  margin: 0 5px;
+}
+
+.icons a {
+  color: var(--blue-green);
+ 
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+
+}
+
+/* PARTE MARÍA */
+.footer {
+  margin-top: 3775px;
+  height: 250px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.div-footer1 {
+  width: 172px;
+  height: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  /* MP:el tamañon en Zeplin pone 14px, ver fuente original cuando la tengamos */
+  color: #b8b8b9;
+  /* color: var(--cool-grey); */
+}
+.list-footer {
+  list-style: none;
+  text-align: center;
+}
+
+.list-footer a {
+  text-decoration: none;
+  color: #54585a;
+  /* color: var(--gunmetal); */
 }
 
 .logo-adalab {
