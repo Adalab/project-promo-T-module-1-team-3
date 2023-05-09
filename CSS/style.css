@@ -312,7 +312,7 @@ i {
 
 /* PARTE MARÍA */
 .footer {
-  height: 20wh;
+  height: 250px;
   border: 1px solid var(--cool-grey);
   display: flex;
   flex-direction: column;
@@ -324,7 +324,7 @@ i {
   width: 172px;
   height: 20px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
    /* MP:el tamañon en Zeplin pone 14px, ver fuente original cuando la tengamos */
   color:var(--cool-grey);
   
@@ -344,12 +344,13 @@ i {
 }
 @media screen and (min-width:768){ 
   .footer{
-  height: 20wh;
+  height: 170px;
+  width:768px;
   border: 1px solid var(--cool-grey);
-  display: inline;
+  display: flex;
   }
   .list-footer{
     text-align: right;
-  }
+}
 }
 
