@@ -1,0 +1,84 @@
+header {
+  opacity: 95%;
+  color: $white;
+  font-family:  $font-title;
+  background-color: $blue-green;
+}
+
+.team-name {
+  font-size: 1.6rem;
+}
+
+.navbar {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  header {
+    display: block;
+    position: fixed;
+  }
+
+  .team-name {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+    width: 100vw;
+    background-color: $aqua;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    height: 60px;
+    padding-left: 45px;
+    padding-right: 45px;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+  }
+
+  .team-name {
+    display: flex;
+    justify-content: start;
+  }
+
+  .navbar {
+    display: flex;
+    list-style: none;
+    column-gap: 15px;
+    background-color: $blue-green;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 45px;
+    padding-right: 45px;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100vw;
+  }
+
+  .navbar {
+    display: flex;
+    list-style: none;
+    column-gap: 15px;
+    background-color: $blue-green;
+  }
+}
