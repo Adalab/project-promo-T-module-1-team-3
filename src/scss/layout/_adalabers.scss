@@ -60,13 +60,12 @@ i {
     flex-direction: row;
     padding: 40px;
   }
-  .boximage {
-    width: 30%;
-  }
+  
   .boxcontent {
     width: 70%;
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
   }
   .description {
     text-align: start;
@@ -85,17 +84,20 @@ i {
     width: 80%;
     height: 80%;
   }
-  .reverse {
+  .reverse_box {
     flex-direction: row-reverse;
   }
-  .reverse_icons {
-    justify-content: flex-end;
+  .reverse_box-content {
+    margin-right: 20px;
   }
-  .reverse_name{
+  .reverse_name {
     text-align: end;
   }
   .reverse_description {
     text-align: end;
+  }
+  .reverse_icons {
+    justify-content: flex-end;
   }
 }
 @media screen and (min-width: 1200px) {
