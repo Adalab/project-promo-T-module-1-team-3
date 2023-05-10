@@ -3,42 +3,51 @@
   flex-direction: column;
   align-items: center;
 }
+
 .title-section2 {
   text-transform: uppercase;
   font-size: 2.5rem;
-  color: var(--blue-green);
+  color: $blue-green;
   margin: 30px 0;
 }
+
 .boxes {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .images {
   object-fit: cover;
   width: 180px;
   height: 180px;
-  border: solid 4px var(--cool-grey);
+  border: solid 4px $cool-grey;
   border-radius: 5px;
 }
+
 .names {
   font-size: 2rem;
   font-weight: normal;
   margin: 15px 0 5px 0;
+  text-align: center;
 }
+
 .description {
   text-align: center;
-  font-size: 1rem;
-  color: var(--gunmetal);
+  font-size: 1.5rem;
+  color: $gunmetal;
   line-height: 1.5;
   margin: 0 30px;
   padding: 0 15px;
 }
+
 i {
   margin: 0 5px;
 }
 .icons a {
-  color: var(--blue-green);
+  color: $blue-green;
 }
 .icons {
   display: flex;
@@ -51,22 +60,21 @@ i {
     flex-direction: row;
     padding: 40px;
   }
-  .boximage {
-    width: 30%;
-  }
+  
   .boxcontent {
     width: 70%;
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
   }
   .description {
     text-align: start;
-    margin
-    : 0;
+    margin: 0;
     padding: 0;
   }
   .names {
     margin-top: 0;
+    text-align: start;
   }
   .icons {
     justify-content: flex-start;
@@ -76,17 +84,20 @@ i {
     width: 80%;
     height: 80%;
   }
-  .reverse {
+  .reverse_box {
     flex-direction: row-reverse;
   }
-  .reverse_icons {
-    justify-content: flex-end;
+  .reverse_box-content {
+    margin-right: 20px;
   }
-  .reverse_name{
+  .reverse_name {
     text-align: end;
   }
   .reverse_description {
     text-align: end;
+  }
+  .reverse_icons {
+    justify-content: flex-end;
   }
 }
 @media screen and (min-width: 1200px) {
