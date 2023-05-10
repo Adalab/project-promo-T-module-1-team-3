@@ -1,5 +1,5 @@
 .hero {
-    background-image: url(../images/imagen-hero.png);
+    background-image: url("../images/imagen-hero.png");
     background-repeat: no-repeat;
     // background-color: red;
     width: 100vw;
@@ -60,7 +60,8 @@
     background-color: $white;
   }
   .hero {
-    background-size:cover;
+    background-size:1200px;
+    margin:auto;
     width: 1200px;
     height: 490px; 
   }
