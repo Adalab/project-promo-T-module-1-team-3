@@ -1,7 +1,16 @@
 header {
-  font-size: 16px;
-  opacity: 90%;
-  color: var(--white);
+  opacity: 95%;
+  color: $white;
+  font-family:  $font-title;
+  background-color: $blue-green;
+}
+
+.team-name {
+  font-size: 1.6rem;
+}
+
+.navbar {
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 480px) {
@@ -12,7 +21,6 @@ header {
 
   .team-name {
     width: 100vw;
-    background-color: var(--blue-green)  ;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -21,8 +29,8 @@ header {
 
   .navbar {
     width: 100vw;
-    background-color: var(--aqua);
-    height: 60px;
+    background-color: $aqua;
+    height: 45px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,22 +41,24 @@ header {
 @media screen and (min-width: 768px) {
   header {
     display: flex;
-    justify-content: space-between;
     height: 60px;
     padding-left: 45px;
     padding-right: 45px;
     align-items: center;
-    background-color: var(--blue-green);
-    color: var(--white);
     position: fixed;
     width: 100vw;
+  }
+
+  .team-name {
+    display: flex;
+    justify-content: start;
   }
 
   .navbar {
     display: flex;
     list-style: none;
     column-gap: 15px;
-    background-color: var(--blue-green);
+    background-color: $blue-green;
   }
 }
 
@@ -60,7 +70,6 @@ header {
     padding-left: 45px;
     padding-right: 45px;
     align-items: center;
-    background-color: #099d8d;
     color: white;
     position: fixed;
     width: 100vw;
@@ -70,6 +79,6 @@ header {
     display: flex;
     list-style: none;
     column-gap: 15px;
-    background-color: var(--blue-green);
+    background-color: $blue-green;
   }
 }
