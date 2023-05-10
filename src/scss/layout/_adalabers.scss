@@ -3,17 +3,22 @@
   flex-direction: column;
   align-items: center;
 }
+
 .title-section2 {
   text-transform: uppercase;
   font-size: 2.5rem;
   color: $blue-green;
   margin: 30px 0;
 }
+
 .boxes {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .images {
   object-fit: cover;
   width: 180px;
@@ -21,23 +26,23 @@
   border: solid 4px $cool-grey;
   border-radius: 5px;
 }
-.images_reverse {
-  margin-left: 30px;
-}
+
 .names {
   font-size: 2rem;
   font-weight: normal;
   margin: 15px 0 5px 0;
   text-align: center;
 }
+
 .description {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: $gunmetal;
   line-height: 1.5;
   margin: 0 30px;
   padding: 0 15px;
 }
+
 i {
   margin: 0 5px;
 }
@@ -65,8 +70,7 @@ i {
   }
   .description {
     text-align: start;
-    margin
-    : 0;
+    margin: 0;
     padding: 0;
   }
   .names {
