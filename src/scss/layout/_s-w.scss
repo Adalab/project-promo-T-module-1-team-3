@@ -8,6 +8,10 @@
   flex-wrap: wrap;
   row-gap: 10px;
   column-gap: 10px;
+  font-size: 1.5rem;
+  color:#54585a;
+  font-family: "Rubik";
+  line-height:2.05;
   
   
 }
@@ -16,7 +20,8 @@
   margin-block-start: 45px;
   margin-block-end: 15px;
   color:#099d8d;
-  font-size: 22px;
+  font-size: 2.2rem;
+ 
 
 }
 
@@ -24,20 +29,17 @@
   text-align: center;
 }
 
-.text1 .text2{ 
-  font-size: 1.5rem;
-
-}
-
 .debil{
   color:#099d8d;
   margin-block-start: 45px;
   margin-block-end: 15px;
   font-size: 22px;
+  font-family: "Rubik";
 }
 
 .debi{
   text-align: center;
+  height: 180px;
 }
 
 @media screen and (min-width: 768px) {
