@@ -7,7 +7,7 @@ header {
   position: fixed;
 }
 
-.team-name {
+.header__title {
   font-size: 1.6rem;
   width: 100vw;
   height: 60px;
@@ -16,7 +16,7 @@ header {
   align-items: center;
 }
 
-.navbar {
+.header__nav {
   font-size: 1.5rem;
   width: 100vw;
   background-color: $aqua;
@@ -38,12 +38,12 @@ header {
     width: 100vw;
   }
 
-  .team-name {
+  .header__title {
     display: flex;
     justify-content: start;
   }
 
-  .navbar {
+  .header__nav {
     display: flex;
     list-style: none;
     column-gap: 15px;
@@ -64,7 +64,7 @@ header {
     width: 100vw;
   }
 
-  .navbar {
+  .header__nav {
     display: flex;
     list-style: none;
     column-gap: 15px;
