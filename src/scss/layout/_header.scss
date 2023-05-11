@@ -3,39 +3,28 @@ header {
   color: $white;
   font-family:  $font-title;
   background-color: $blue-green;
+  display: block;
+  position: fixed;
 }
 
-.team-name {
+.header__title {
   font-size: 1.6rem;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar {
+.header__nav {
   font-size: 1.5rem;
-}
-
-@media screen and (min-width: 480px) {
-  header {
-    display: block;
-    position: fixed;
-  }
-
-  .team-name {
-    width: 100vw;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .navbar {
-    width: 100vw;
-    background-color: $aqua;
-    height: 45px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-  }
+  width: 100vw;
+  background-color: $aqua;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -49,12 +38,12 @@ header {
     width: 100vw;
   }
 
-  .team-name {
+  .header__title {
     display: flex;
     justify-content: start;
   }
 
-  .navbar {
+  .header__nav {
     display: flex;
     list-style: none;
     column-gap: 15px;
@@ -75,7 +64,7 @@ header {
     width: 100vw;
   }
 
-  .navbar {
+  .header__nav {
     display: flex;
     list-style: none;
     column-gap: 15px;
