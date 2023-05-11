@@ -5,6 +5,7 @@
   margin: -15px auto 0;
   background-color:#b8b8b9;
   display: flex;
+  flex-wrap: wrap;
   row-gap: 10px;
   column-gap: 10px;
   
@@ -38,3 +39,15 @@
 .debi{
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .strengths {
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+    .strengths {
+      flex-wrap: nowrap;
+    }
+  }
+    
