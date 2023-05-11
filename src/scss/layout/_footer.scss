@@ -1,13 +1,13 @@
 .footer {
   height: 250px;
-  border: 1px solid $cool-grey;
+  border-top: 1px solid $cool-grey;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
 .div-footer1 {
-  width: 172px;
+  /*width: 172px;*/
   height: 20px;
   text-align: center;
   font-size: 0.9rem;
@@ -22,7 +22,7 @@
   color: $gunmetal;
 }
 .logo-adalab {
-  width: 115.9px;
+  /*width: 115.9px;*/
   height: 45px;
 }
 @media screen and (min-width:768px){
@@ -31,15 +31,28 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   height: 170px;
-  width:768px;
-  border: 1px solid $cool-grey;
+  /*width:768px;*/
+  border-top: 1px solid $cool-grey;
 }
+.div-footer1 {
+  height: 20px;
+  text-align: left;
+  font-size: 0.9rem;
+  color: $cool-grey;
+  padding-left: 45px;
+}
+
+
   .div-footer2{
   grid-column-start: 1;
   grid-column-end: 3;
+  padding-right: 45px;
   }  
   .list-footer{
     text-align: right;
+}
+.div-footer3{
+  padding-left: 45px;
 }
 }
 
