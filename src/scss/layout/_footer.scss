@@ -5,60 +5,63 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 56px;
+  padding-top: 24px;
 }
 .div-footer1 {
-  /*width: 172px;*/
   height: 20px;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
   color: $cool-grey;
 }
 .list-footer {
+  display: flex;
   list-style: none;
   text-align: center;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 1.4rem;
 }
 .list-footer a {
   text-decoration: none;
   color: $gunmetal;
 }
 .logo-adalab {
-  /*width: 115.9px;*/
   height: 45px;
 }
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  height: 170px;
-  /*width:768px;*/
-  border-top: 1px solid $cool-grey;
-}
-.div-footer1 {
-  height: 20px;
-  text-align: left;
-  font-size: 0.9rem;
-  color: $cool-grey;
-  padding-left: 45px;
-}
-
-
-  .div-footer2{
-  grid-column-start: 1;
-  grid-column-end: 3;
-  padding-right: 45px;
-  }  
-  .list-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 170px;
+    border-top: 1px solid $cool-grey;
+  }
+  .div-footer1 {
+    height: 20px;
+    text-align: left;
+    font-size: 0.9rem;
+    color: $cool-grey;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .div-footer2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 1/3;
+  }
+  .list-footer {
     text-align: right;
+  }
+  .div-footer3 {
+
+  }
 }
-.div-footer3{
-  padding-left: 45px;
-}
+@media screen and (min-width: 1200px){
+  .footer {
+
+  }
 }
 
-
-/*.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}*/
