@@ -48,18 +48,21 @@
   
     @media screen and (min-width: 768px){
   .about-paragraph{
-     padding-left: 80px;
-     padding-right: 80px;
+     padding-left: 40px;
+     padding-right: 40px;
   }
     .about h3{
       color: $blue-green;
     }
+        .about p{
+          color: $cool-grey;
+        }
     }
   
 
   @media (min-width: 1200px){
     .about-paragraph{
-      padding-left: 300px;
-      padding-right: 300px;
+      padding-left: 280px;
+      padding-right: 280px;
     }
   }
