@@ -1,6 +1,6 @@
 .strengths{
   width: 100%;
-  height: 100%;
+  height: 70vh;
   padding: 15px 15px 15px;
   margin: -15px auto 0;
   background-color:#b8b8b9;
@@ -10,10 +10,6 @@
   column-gap: 10px;
   font-size: 1.5rem;
   color:#54585a;
-  font-family: "Rubik";
-  line-height:2.05;
-  
-  
 }
 
 .forttit{
@@ -21,30 +17,32 @@
   margin-block-end: 15px;
   color:#099d8d;
   font-size: 2.2rem;
- 
-
+  font-family: "Rubik";
 }
 
 .fort{
   text-align: center;
+  font-size: 1.6rem;
 }
 
 .debil{
   color:#099d8d;
   margin-block-start: 45px;
   margin-block-end: 15px;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-family: "Rubik";
 }
 
 .debi{
   text-align: center;
   height: 180px;
+  font-size: 1.6rem;
 }
 
 @media screen and (min-width: 768px) {
   .strengths {
     flex-wrap: nowrap;
+    height: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
