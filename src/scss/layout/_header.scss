@@ -5,6 +5,7 @@ header {
   background-color: $blue-green;
   display: block;
   position: fixed;
+  z-index: 99;
 }
 
 .header__title {
