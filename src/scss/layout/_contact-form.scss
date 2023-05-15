@@ -1,0 +1,74 @@
+.form {
+    padding: 58px 15px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    gap: 13px;
+    font-size: 14px;
+    color: $gunmetal;
+
+    & .color_text {
+        color: $aqua;
+    }
+
+    & input {
+        border: solid 1px $cool-grey;
+    }
+
+    & .input_box {
+        width: 100%;
+        height: 45px;
+    }
+
+    & textarea {
+        width: 100%;
+        height: 105px;
+        border: solid 1px $cool-grey;
+    }
+}
+
+.button_box {
+    display: flex;
+    padding: 30px 15px 60px;
+}
+
+.button {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    background-color: $blue-green;
+    color: $white;
+    font-size: 1.2rem;
+    display: block;
+    border: none;
+}
+
+input::placeholder {
+    padding-left: 15px;
+    color: $cool-grey;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+textarea::placeholder {
+    color: $cool-grey;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    opacity: 0.5;
+}
+
+
+@media screen and (min-width: 768px) {
+    .form {
+        padding: 58px 163px 60px 163px;
+    }
+
+    .button {
+        width: 206px;
+
+    }
+}

@@ -1,0 +1,25 @@
+.hero {
+    background-image: url("../images/ufo_spaceship2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 421px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-size: cover;
+        height: 361px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        background-size: 100%;
+        margin: auto;
+        width: 1200px;
+        height: 490px;
+    }
+
+}
