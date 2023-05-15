@@ -3,7 +3,7 @@
   height: 70vh;
   padding: 15px 15px 15px;
   margin: -15px auto 0;
-  background-color:#b8b8b9;
+  background-color: $backgroundblue;
   display: flex;
   flex-wrap: wrap;
   row-gap: 10px;
@@ -15,7 +15,7 @@
 .forttit{
   margin-block-start: 45px;
   margin-block-end: 15px;
-  color:#099d8d;
+  color:$blue-green;
   font-size: 2.2rem;
   font-family: "Rubik";
 }
