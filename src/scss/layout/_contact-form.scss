@@ -28,11 +28,26 @@
         height: 105px;
         border: solid 1px $cool-grey;
     }
+    &__name{
+        width: 100%;
+    }
+    &__email{
+        width: 100%;
+    }
+    &__phone{
+        width: 100%;
+    }
+    &__message{
+        width: 100%;
+    }
 }
 
 .button_box {
+    width: 100%;
     display: flex;
-    padding: 30px 15px 60px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 30px;
 }
 
 .button {
@@ -67,8 +82,44 @@ textarea::placeholder {
         padding: 58px 163px 60px 163px;
     }
 
-    .button {
-        width: 206px;
-
+    .button_box{
+        width: 50%;
+        display: flex;
+        margin-left: auto;
+        }
     }
+
+
+@media screen and (min-width: 1200px){
+    .form{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 60px 60px 100px 60px;
+        &__name{
+            grid-column: 1/4;
+            grid-row: 1;
+        }
+        &__email{
+            grid-column: 1/3;
+            grid-row: 2;
+        }
+        &__phone{
+            grid-column: 3/4;
+            grid-row: 2;
+        }
+        &__message{
+            grid-column: 1/4;
+            grid-row: 3;
+        }
+        .button_box{
+            grid-column: 2/4;
+                grid-row: 4;
+        }
+    }
+     .button_box {
+         width: 70%;
+         margin-top: 20px;
+         
+     }
 }
+   
