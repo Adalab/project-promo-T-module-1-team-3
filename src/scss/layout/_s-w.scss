@@ -1,0 +1,56 @@
+.strengths {
+  width: 100%;
+  padding: 30px 15px 45px;
+  margin: -15px auto 0;
+  background-color: $backgroundblue;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  column-gap: 10px;
+  font-size: 1.5rem;
+}
+
+.s_w_paragraph {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: $gunmetal;
+}
+
+.fort {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.forttit {
+  color: $blue-green;
+  font-size: 2.2rem;
+  font-family: $font-title;
+  line-height: 2.05;
+}
+
+.debi {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.debil {
+  color: $blue-green;
+  font-size: 2.2rem;
+  font-family: $font-title;
+  line-height: 2.05;
+}
+
+@media screen and (min-width: 768px) {
+  .strengths {
+    flex-direction: row;
+    gap: 30px;
+    padding: 45px 45px 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .strengths {
+    padding: 45px 138px 60px;
+    gap: 45px;
+  }
+}

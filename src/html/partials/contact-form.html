@@ -1,0 +1,55 @@
+<form class="form" action="https://formspree.io/f/xjvdzeko" method="post">
+  <div class="form__name">
+    <label for="name" class="input__label"
+      >Nombre completo<span class="color_text">*</span></label
+    >
+    <input
+      class="input_box"
+      placeholder="Nombre..."
+      id="name"
+      type="text"
+      name="Name"
+      required
+    />
+  </div>
+
+  <div class="form__email">
+    <label for="emailAddress" class="input__label"
+      >Email<span class="color_text">*</span></label
+    >
+    <input
+      class="input_box"
+      placeholder="nombre.apellidos@mail.com"
+      type="email"
+      id="emailAddress"
+      name="emailAddress"
+      required
+    />
+  </div>
+
+  <div class="form__phone">
+    <label for="tel" class="input__label">Teléfono</label>
+    <input
+      class="input_box"
+      placeholder="Ej: 123456789"
+      type="number"
+      id="tel"
+      name="telephone"
+    />
+  </div>
+
+  <div class="form__message">
+    <label for="message">Mensaje<span class="color_text">*</span></label>
+    <textarea
+      placeholder="¿Qué necesitas?"
+      id="message"
+      name="message"
+      rows="8"
+      cols="80"
+      required
+    ></textarea>
+  </div>
+  <div class="button_box">
+    <input class="button" type="submit" value="ENVIAR" />
+  </div>
+</form>

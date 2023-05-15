@@ -1,0 +1,137 @@
+.adalabers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-section2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: $blue-green;
+  margin: 30px 0;
+  font-family: $font-title;
+}
+
+.boxes {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images {
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  border: solid 4px $cool-grey;
+  border-radius: 5px;
+}
+
+.names {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 15px 0 5px 0;
+  text-align: center;
+}
+
+.description {
+  width: 320px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: $gunmetal;
+  line-height: 1.5;
+   
+}
+
+i {
+  margin: 0 5px;
+}
+
+.icons a {
+  color: $blue-green;
+}
+
+.dot {
+  margin-top: 5px;
+  margin-left: 3px;
+  height: 2px;
+  width: 2px; 
+  background-color: $blue-green;
+  border-radius: 50%;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.aka{
+  color: $blue-green;
+}
+
+@media screen and (min-width: 768px) {
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin-left: 45px;
+  }
+  
+  .boxcontent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .description {
+    width: 450px;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+  }
+  .names {
+    margin-top: 0;
+    text-align: start;
+  }
+  .icons {
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+  .i {
+    width: 80%;
+    height: 80%;
+  }
+  .reverse_box {
+    flex-direction: row-reverse;
+    margin-right: 45px;
+    
+  }
+  .reverse_box-content {
+    margin-right: 20px;
+  }
+
+  .reverse_name {
+    text-align: end;
+  }
+  
+  .reverse_description {
+    text-align: end;
+  }
+  .reverse_icons {
+    justify-content: flex-end;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  
+  .boxes {
+    width: 900px;
+  }
+  .images {
+  width: 250px;
+  height: 250px;
+  }
+  .description{
+    width: 550px;
+  }
+  
+}

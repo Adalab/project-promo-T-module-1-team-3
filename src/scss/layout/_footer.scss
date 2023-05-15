@@ -1,0 +1,68 @@
+.footer {
+  height: 250px;
+  border-top: 1px solid $cool-grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 56px;
+  padding-top: 24px;
+}
+.div-footer1 {
+  height: 20px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: $cool-grey;
+}
+.list-footer {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 1.4rem;
+}
+.list-footer a {
+  text-decoration: none;
+  color: $gunmetal;
+}
+.logo-adalab {
+  height: 45px;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 170px;
+    border-top: 1px solid $cool-grey;
+  }
+  .div-footer1 {
+    height: 20px;
+    text-align: left;
+    font-size: 0.9rem;
+    color: $cool-grey;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .div-footer2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 1/3;
+  }
+  .list-footer {
+    text-align: right;
+    gap: 10px;
+  }
+  .div-footer3 {
+
+  }
+}
+@media screen and (min-width: 1200px){
+  .footer {
+    padding: 24px 138px 47px;
+  }
+}
+
