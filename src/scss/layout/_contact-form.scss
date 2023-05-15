@@ -32,11 +32,12 @@
 
 .button_box {
     display: flex;
-    padding: 30px 15px 60px;
+    justify-content: center;
+    padding: 20px 0 30px;
 }
 
 .button {
-    width: 100%;
+    width: 290px;
     height: 45px;
     border-radius: 4px;
     background-color: $blue-green;
@@ -67,8 +68,13 @@ textarea::placeholder {
         padding: 58px 163px 60px 163px;
     }
 
-    .button {
-        width: 206px;
-
+    .button_box{
+       display: flex;
+       justify-content: center;
+       padding: 20px 0 30px 150px;
     }
+}
+
+@media screen and (min-width: 1200px){
+    
 }
