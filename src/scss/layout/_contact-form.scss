@@ -1,0 +1,125 @@
+.form {
+    padding: 58px 15px 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    gap: 13px;
+    font-size: 14px;
+    color: $gunmetal;
+
+    & .color_text {
+        color: $aqua;
+    }
+
+    & input {
+        border: solid 1px $cool-grey;
+    }
+
+    & .input_box {
+        width: 100%;
+        height: 45px;
+    }
+
+    & textarea {
+        width: 100%;
+        height: 105px;
+        border: solid 1px $cool-grey;
+    }
+    &__name{
+        width: 100%;
+    }
+    &__email{
+        width: 100%;
+    }
+    &__phone{
+        width: 100%;
+    }
+    &__message{
+        width: 100%;
+    }
+}
+
+.button_box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 30px;
+}
+
+.button {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    background-color: $blue-green;
+    color: $white;
+    font-size: 1.2rem;
+    display: block;
+    border: none;
+}
+
+input::placeholder {
+    padding-left: 15px;
+    color: $cool-grey;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+
+textarea::placeholder {
+    color: $cool-grey;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    opacity: 0.5;
+}
+
+
+@media screen and (min-width: 768px) {
+    .form {
+        padding: 58px 163px 60px 163px;
+    }
+
+    .button_box{
+        width: 50%;
+        display: flex;
+        margin-left: auto;
+        }
+    }
+
+
+@media screen and (min-width: 1200px){
+    .form{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 60px 60px 100px 60px;
+        &__name{
+            grid-column: 1/4;
+            grid-row: 1;
+        }
+        &__email{
+            grid-column: 1/3;
+            grid-row: 2;
+        }
+        &__phone{
+            grid-column: 3/4;
+            grid-row: 2;
+        }
+        &__message{
+            grid-column: 1/4;
+            grid-row: 3;
+        }
+        .button_box{
+            grid-column: 2/4;
+                grid-row: 4;
+        }
+    }
+     .button_box {
+         width: 70%;
+         margin-top: 20px;
+         
+     }
+}
+   

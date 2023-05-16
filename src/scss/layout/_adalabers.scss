@@ -36,39 +36,54 @@
 }
 
 .description {
+  width: 320px;
   text-align: center;
   font-size: 1.5rem;
   color: $gunmetal;
   line-height: 1.5;
-  margin: 0 30px;
-  padding: 0 15px;
+   
 }
 
 i {
   margin: 0 5px;
 }
+
 .icons a {
   color: $blue-green;
+}
+
+.dot {
+  margin-top: 5px;
+  margin-left: 3px;
+  height: 2px;
+  width: 2px; 
+  background-color: $blue-green;
+  border-radius: 50%;
 }
 .icons {
   display: flex;
   justify-content: center;
   margin: 15px;
 }
+.aka{
+  color: $blue-green;
+}
+
 @media screen and (min-width: 768px) {
   .boxes {
     display: flex;
     flex-direction: row;
-    padding: 40px;
+    width: 700px;
+    margin-left: 45px;
   }
   
   .boxcontent {
-    width: 70%;
     display: flex;
     flex-direction: column;
     margin-left: 20px;
   }
   .description {
+    width: 450px;
     text-align: start;
     margin: 0;
     padding: 0;
@@ -87,19 +102,36 @@ i {
   }
   .reverse_box {
     flex-direction: row-reverse;
+    margin-right: 45px;
+    
   }
   .reverse_box-content {
     margin-right: 20px;
   }
+
   .reverse_name {
     text-align: end;
   }
+  
   .reverse_description {
     text-align: end;
   }
   .reverse_icons {
     justify-content: flex-end;
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 1200px) {
+  
+  .boxes {
+    width: 900px;
+  }
+  .images {
+  width: 250px;
+  height: 250px;
+  }
+  .description{
+    width: 550px;
+  }
+  
 }

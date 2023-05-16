@@ -4,6 +4,7 @@
     height: 50%;
     padding: 15px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
   }
   
@@ -20,7 +21,9 @@
   
   .about-paragraph{
     width: 100%;
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
   
   .about p{
@@ -30,6 +33,8 @@
     line-height: 2.2rem;
     padding: 8px;
     font-weight: 100;
+    
+    
   }
   
   .about-cube{
@@ -41,8 +46,23 @@
     transform: rotate(45deg);
   }
   
-  @media screen and (min-width: 768px){
-    .about{
-      height: 25%;
+    @media screen and (min-width: 768px){
+  .about-paragraph{
+     padding-left: 40px;
+     padding-right: 40px;
+  }
+    .about h3{
+      color: $blue-green;
+    }
+        .about p{
+          color: $cool-grey;
+        }
+    }
+  
+
+  @media (min-width: 1200px){
+    .about-paragraph{
+      padding-left: 280px;
+      padding-right: 280px;
     }
   }

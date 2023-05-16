@@ -5,6 +5,7 @@ header {
   background-color: $blue-green;
   display: block;
   position: fixed;
+  z-index: 99;
 }
 
 .header__title {
@@ -21,10 +22,18 @@ header {
   width: 100vw;
   background-color: $aqua;
   height: 45px;
+  color: $white;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  text-decoration: none;
+  color: $white;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: $white;
 }
 
 @media screen and (min-width: 768px) {
@@ -56,8 +65,8 @@ header {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 138px;
+    padding-right: 138px;
     align-items: center;
     color: white;
     position: fixed;
