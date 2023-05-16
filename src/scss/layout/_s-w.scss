@@ -14,6 +14,7 @@
   font-size: 1.6rem;
   line-height: 1.5;
   color: $gunmetal;
+  text-align: justify;
 }
 
 .fort {
@@ -43,14 +44,28 @@
 @media screen and (min-width: 768px) {
   .strengths {
     flex-direction: row;
-    gap: 30px;
+    gap: 60px;
     padding: 45px 45px 60px;
+    justify-content: center;
   }
+  .debi {
+      width: 324px;
+  }
+  .fort {
+      width: 324px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
   .strengths {
     padding: 45px 138px 60px;
-    gap: 45px;
+    gap: 90px;
   }
+    .debi {
+      width: 439px;
+    }
+  
+    .fort {
+      width: 439px;
+    }
 }
